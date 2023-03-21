@@ -1,5 +1,5 @@
 import React from "react";
-import { v4 as uuid } from 'uuid';
+import { v4 as uuid } from "uuid";
 
 export const TaskAddInput = ({
   inputText,
@@ -26,7 +26,6 @@ export const TaskAddInput = ({
 
   const handleChange = (e) => {
     setInputText(e.target.value);
-    console.log(inputText);
   };
 
   return (
